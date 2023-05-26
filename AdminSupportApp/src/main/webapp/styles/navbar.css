@@ -1,0 +1,41 @@
+body {
+background-color: #fbfbfb;
+}
+
+@media (min-width: 92px) {
+	.d-lg-block {
+   		display: block!important;
+	}
+}
+
+/* Sidebar */
+.sidebar {
+position: fixed;
+top: 0;
+bottom: 0;
+left: 0;
+padding: 58px 0 0; /* Height of navbar */
+box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+width: 22%;
+z-index: 600;
+}
+
+.navbar>.container-fluid {
+	justify-content: flex-start;
+	color: #0d6efd;
+	font-weight: 600;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    width: 20%;
+    height: 20%;
+}
+
+.mt-4 {
+    margin-top: 3.5rem!important;
+}

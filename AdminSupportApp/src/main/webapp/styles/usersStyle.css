@@ -1,0 +1,23 @@
+body {
+	padding: 0 2% 0 24%;
+}
+
+.action-button {
+	cursor: pointer;
+	margin-right: 12px !important;
+}
+
+.users-header {
+	margin-top: 12px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.result-message {
+	color: blue;
+}
+
+.add-user {
+	margin-right: 22px;
+    font-size: 22px;
+}

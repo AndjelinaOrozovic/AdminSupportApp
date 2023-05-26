@@ -1,0 +1,34 @@
+body {
+	padding: 0 2% 0 24%;
+}
+
+.action-button {
+	cursor: pointer;
+	margin-right: 12px;
+}
+
+.categories-header {
+	margin-top: 12px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.result-message {
+	color: blue;
+}
+
+.add-category-icon {
+	font-size: 16px;
+}
+
+.new-category-btn {
+	margin-left: 8px;
+}
+
+.new-category {
+	display: flex;
+}
+
+.notification {
+	color: blueviolet;
+}
